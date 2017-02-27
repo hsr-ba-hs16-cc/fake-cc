@@ -1,0 +1,28 @@
+{
+  "name": "fake-cc",
+  "version": "1.0.0",
+  "description": "Fake C&C Servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:hsr-ba-hs16-cc/fake-cc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hsr-ba-hs16-cc/client-server/issues"
+  },
+  "homepage": "https://gitlab.com/hsr-ba-hs16-cc/client-server#README",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-rawbody": "^1.0.2",
+    "http-proxy-agent": "^1.0.0",
+    "https-proxy-agent": "^1.0.0",
+    "log4js": "^1.0.1",
+    "log4js-amqp": "0.0.1"
+  }
+}
